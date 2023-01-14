@@ -2,13 +2,50 @@ body{
     min-height: 2000px;
 }
 
-.jumbotron {
-    padding-top: 2rem;
-    background-color: #7fccff;
+.nav{
+    background-color: #999fa0;
+}
 
+.navbar a{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.navbar dropdown{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.navbar button{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.jumbotron {
+    padding-top: 10rem;
+    background-color: #999fa0;
+    background-image: url('img/bg-jumbotron.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron img {
+    border: 5px solid: #333;
+}
+
+.jumbotron h1, .jumbotron p {
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+#about h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 
 #projects {
-    background-color: #7fccff;
+    background-color: #999fa0;
 }
 
+#projects h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+#contact h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
