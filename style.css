@@ -19,7 +19,7 @@ body{
 }
 
 .jumbotron {
-    padding-top: 8rem;
+    padding-top: 10rem;
     background-color: #999fa0;
     background-image: url('img/bg-jumbotron.png');
     background-attachment: fixed;
