@@ -19,11 +19,12 @@ body{
 }
 
 .jumbotron {
-    padding-top: 10rem;
+    padding-top: 8rem;
     background-color: #999fa0;
     background-image: url('img/bg-jumbotron.png');
     background-attachment: fixed;
     background-size: cover;
+    background-position: 0 0px;
 }
 
 .jumbotron img {
